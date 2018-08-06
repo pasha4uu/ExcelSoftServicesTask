@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650155B62111CCA200E28B32 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650155B52111CCA200E28B32 /* SearchView.swift */; };
+		65AC9AD821107F5800086BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC9AD721107F5800086BCC /* AppDelegate.swift */; };
+		65AC9ADA21107F5800086BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC9AD921107F5800086BCC /* ViewController.swift */; };
+		65AC9ADD21107F5800086BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AC9ADB21107F5800086BCC /* Main.storyboard */; };
+		65AC9ADF21107F5B00086BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AC9ADE21107F5B00086BCC /* Assets.xcassets */; };
+		65AC9AE221107F5B00086BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AC9AE021107F5B00086BCC /* LaunchScreen.storyboard */; };
+		65AC9AED21107F5B00086BCC /* ExcelSoftServicesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC9AEC21107F5B00086BCC /* ExcelSoftServicesTaskTests.swift */; };
+		65AC9AF821107F5B00086BCC /* ExcelSoftServicesTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC9AF721107F5B00086BCC /* ExcelSoftServicesTaskUITests.swift */; };
+		959C0F132B3FC195A48F22AC /* Pods_ExcelSoftServicesTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44CC67BA2BA4409A5F0700A /* Pods_ExcelSoftServicesTaskTests.framework */; };
+		EAB32F3BF8B0702BB2414C6D /* Pods_ExcelSoftServicesTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B5B08965F6A0DBFC4A911C /* Pods_ExcelSoftServicesTask.framework */; };
+		ECDFCCD28163E445A0C33DD9 /* Pods_ExcelSoftServicesTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC20DB1639A528932391E6F /* Pods_ExcelSoftServicesTaskUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65AC9AE921107F5B00086BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AC9ACC21107F5700086BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AC9AD321107F5700086BCC;
+			remoteInfo = ExcelSoftServicesTask;
+		};
+		65AC9AF421107F5B00086BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AC9ACC21107F5700086BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AC9AD321107F5700086BCC;
+			remoteInfo = ExcelSoftServicesTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B5B08965F6A0DBFC4A911C /* Pods_ExcelSoftServicesTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelSoftServicesTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430ED253D6960371A0C4D80B /* Pods-ExcelSoftServicesTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTaskTests/Pods-ExcelSoftServicesTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5037B8F2EB6E1E9B8F8F739A /* Pods-ExcelSoftServicesTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTask/Pods-ExcelSoftServicesTask.release.xcconfig"; sourceTree = "<group>"; };
+		650155B52111CCA200E28B32 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		65AC9AD421107F5700086BCC /* ExcelSoftServicesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelSoftServicesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AC9AD721107F5800086BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AC9AD921107F5800086BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65AC9ADC21107F5800086BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AC9ADE21107F5B00086BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AC9AE121107F5B00086BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AC9AE321107F5B00086BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AC9AE821107F5B00086BCC /* ExcelSoftServicesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelSoftServicesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AC9AEC21107F5B00086BCC /* ExcelSoftServicesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelSoftServicesTaskTests.swift; sourceTree = "<group>"; };
+		65AC9AEE21107F5B00086BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AC9AF321107F5B00086BCC /* ExcelSoftServicesTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelSoftServicesTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AC9AF721107F5B00086BCC /* ExcelSoftServicesTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelSoftServicesTaskUITests.swift; sourceTree = "<group>"; };
+		65AC9AF921107F5B00086BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8326B42461AF89A7D21AD1ED /* Pods-ExcelSoftServicesTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTaskUITests/Pods-ExcelSoftServicesTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A44CC67BA2BA4409A5F0700A /* Pods_ExcelSoftServicesTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelSoftServicesTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8251554764B363D617BD50 /* Pods-ExcelSoftServicesTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTaskUITests/Pods-ExcelSoftServicesTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC20DB1639A528932391E6F /* Pods_ExcelSoftServicesTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelSoftServicesTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AEDC98304D8B9FD470B889 /* Pods-ExcelSoftServicesTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTaskTests/Pods-ExcelSoftServicesTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB541755CCFE798DBE3BCAED /* Pods-ExcelSoftServicesTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelSoftServicesTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExcelSoftServicesTask/Pods-ExcelSoftServicesTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AC9AD121107F5700086BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB32F3BF8B0702BB2414C6D /* Pods_ExcelSoftServicesTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AE521107F5B00086BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959C0F132B3FC195A48F22AC /* Pods_ExcelSoftServicesTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AF021107F5B00086BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDFCCD28163E445A0C33DD9 /* Pods_ExcelSoftServicesTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65AC9ACB21107F5700086BCC = {
+			isa = PBXGroup;
+			children = (
+				65AC9AD621107F5700086BCC /* ExcelSoftServicesTask */,
+				65AC9AEB21107F5B00086BCC /* ExcelSoftServicesTaskTests */,
+				65AC9AF621107F5B00086BCC /* ExcelSoftServicesTaskUITests */,
+				65AC9AD521107F5700086BCC /* Products */,
+				B7643BEE885256C725014051 /* Pods */,
+				A8A5339FD6F2AAA889F64C18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65AC9AD521107F5700086BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AC9AD421107F5700086BCC /* ExcelSoftServicesTask.app */,
+				65AC9AE821107F5B00086BCC /* ExcelSoftServicesTaskTests.xctest */,
+				65AC9AF321107F5B00086BCC /* ExcelSoftServicesTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AC9AD621107F5700086BCC /* ExcelSoftServicesTask */ = {
+			isa = PBXGroup;
+			children = (
+				65AC9AD721107F5800086BCC /* AppDelegate.swift */,
+				65AC9AD921107F5800086BCC /* ViewController.swift */,
+				65AC9ADB21107F5800086BCC /* Main.storyboard */,
+				65AC9ADE21107F5B00086BCC /* Assets.xcassets */,
+				65AC9AE021107F5B00086BCC /* LaunchScreen.storyboard */,
+				65AC9AE321107F5B00086BCC /* Info.plist */,
+				650155B52111CCA200E28B32 /* SearchView.swift */,
+			);
+			path = ExcelSoftServicesTask;
+			sourceTree = "<group>";
+		};
+		65AC9AEB21107F5B00086BCC /* ExcelSoftServicesTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				65AC9AEC21107F5B00086BCC /* ExcelSoftServicesTaskTests.swift */,
+				65AC9AEE21107F5B00086BCC /* Info.plist */,
+			);
+			path = ExcelSoftServicesTaskTests;
+			sourceTree = "<group>";
+		};
+		65AC9AF621107F5B00086BCC /* ExcelSoftServicesTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65AC9AF721107F5B00086BCC /* ExcelSoftServicesTaskUITests.swift */,
+				65AC9AF921107F5B00086BCC /* Info.plist */,
+			);
+			path = ExcelSoftServicesTaskUITests;
+			sourceTree = "<group>";
+		};
+		A8A5339FD6F2AAA889F64C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B5B08965F6A0DBFC4A911C /* Pods_ExcelSoftServicesTask.framework */,
+				A44CC67BA2BA4409A5F0700A /* Pods_ExcelSoftServicesTaskTests.framework */,
+				CDC20DB1639A528932391E6F /* Pods_ExcelSoftServicesTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7643BEE885256C725014051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB541755CCFE798DBE3BCAED /* Pods-ExcelSoftServicesTask.debug.xcconfig */,
+				5037B8F2EB6E1E9B8F8F739A /* Pods-ExcelSoftServicesTask.release.xcconfig */,
+				430ED253D6960371A0C4D80B /* Pods-ExcelSoftServicesTaskTests.debug.xcconfig */,
+				D2AEDC98304D8B9FD470B889 /* Pods-ExcelSoftServicesTaskTests.release.xcconfig */,
+				BB8251554764B363D617BD50 /* Pods-ExcelSoftServicesTaskUITests.debug.xcconfig */,
+				8326B42461AF89A7D21AD1ED /* Pods-ExcelSoftServicesTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AC9AD321107F5700086BCC /* ExcelSoftServicesTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AC9AFC21107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTask" */;
+			buildPhases = (
+				7AD4FF2184E9979E803AD38D /* [CP] Check Pods Manifest.lock */,
+				65AC9AD021107F5700086BCC /* Sources */,
+				65AC9AD121107F5700086BCC /* Frameworks */,
+				65AC9AD221107F5700086BCC /* Resources */,
+				60E169B87B7630545B2E697C /* [CP] Embed Pods Frameworks */,
+				4F1607B71869D7189539527C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelSoftServicesTask;
+			productName = ExcelSoftServicesTask;
+			productReference = 65AC9AD421107F5700086BCC /* ExcelSoftServicesTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65AC9AE721107F5B00086BCC /* ExcelSoftServicesTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AC9AFF21107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTaskTests" */;
+			buildPhases = (
+				991A3A3D69A9FEAD5E0CFFD2 /* [CP] Check Pods Manifest.lock */,
+				65AC9AE421107F5B00086BCC /* Sources */,
+				65AC9AE521107F5B00086BCC /* Frameworks */,
+				65AC9AE621107F5B00086BCC /* Resources */,
+				5FDF477B4F38968CB820ABAE /* [CP] Embed Pods Frameworks */,
+				4D78F4AB3ED55C765BC22512 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AC9AEA21107F5B00086BCC /* PBXTargetDependency */,
+			);
+			name = ExcelSoftServicesTaskTests;
+			productName = ExcelSoftServicesTaskTests;
+			productReference = 65AC9AE821107F5B00086BCC /* ExcelSoftServicesTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65AC9AF221107F5B00086BCC /* ExcelSoftServicesTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AC9B0221107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTaskUITests" */;
+			buildPhases = (
+				E6D1B47AA71D668EAD2EE984 /* [CP] Check Pods Manifest.lock */,
+				65AC9AEF21107F5B00086BCC /* Sources */,
+				65AC9AF021107F5B00086BCC /* Frameworks */,
+				65AC9AF121107F5B00086BCC /* Resources */,
+				540262BBB3FCB8E2FD112E09 /* [CP] Embed Pods Frameworks */,
+				515B360B977462F8641ECCEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AC9AF521107F5B00086BCC /* PBXTargetDependency */,
+			);
+			name = ExcelSoftServicesTaskUITests;
+			productName = ExcelSoftServicesTaskUITests;
+			productReference = 65AC9AF321107F5B00086BCC /* ExcelSoftServicesTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AC9ACC21107F5700086BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Pasha;
+				TargetAttributes = {
+					65AC9AD321107F5700086BCC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					65AC9AE721107F5B00086BCC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65AC9AD321107F5700086BCC;
+					};
+					65AC9AF221107F5B00086BCC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65AC9AD321107F5700086BCC;
+					};
+				};
+			};
+			buildConfigurationList = 65AC9ACF21107F5700086BCC /* Build configuration list for PBXProject "ExcelSoftServicesTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AC9ACB21107F5700086BCC;
+			productRefGroup = 65AC9AD521107F5700086BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AC9AD321107F5700086BCC /* ExcelSoftServicesTask */,
+				65AC9AE721107F5B00086BCC /* ExcelSoftServicesTaskTests */,
+				65AC9AF221107F5B00086BCC /* ExcelSoftServicesTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AC9AD221107F5700086BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AC9AE221107F5B00086BCC /* LaunchScreen.storyboard in Resources */,
+				65AC9ADF21107F5B00086BCC /* Assets.xcassets in Resources */,
+				65AC9ADD21107F5800086BCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AE621107F5B00086BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AF121107F5B00086BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D78F4AB3ED55C765BC22512 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTaskTests/Pods-ExcelSoftServicesTaskTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1607B71869D7189539527C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTask/Pods-ExcelSoftServicesTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515B360B977462F8641ECCEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTaskUITests/Pods-ExcelSoftServicesTaskUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540262BBB3FCB8E2FD112E09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTaskUITests/Pods-ExcelSoftServicesTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDF477B4F38968CB820ABAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTaskTests/Pods-ExcelSoftServicesTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E169B87B7630545B2E697C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTask/Pods-ExcelSoftServicesTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExcelSoftServicesTask/Pods-ExcelSoftServicesTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD4FF2184E9979E803AD38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExcelSoftServicesTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		991A3A3D69A9FEAD5E0CFFD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExcelSoftServicesTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D1B47AA71D668EAD2EE984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExcelSoftServicesTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AC9AD021107F5700086BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AC9ADA21107F5800086BCC /* ViewController.swift in Sources */,
+				650155B62111CCA200E28B32 /* SearchView.swift in Sources */,
+				65AC9AD821107F5800086BCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AE421107F5B00086BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AC9AED21107F5B00086BCC /* ExcelSoftServicesTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AC9AEF21107F5B00086BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AC9AF821107F5B00086BCC /* ExcelSoftServicesTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65AC9AEA21107F5B00086BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AC9AD321107F5700086BCC /* ExcelSoftServicesTask */;
+			targetProxy = 65AC9AE921107F5B00086BCC /* PBXContainerItemProxy */;
+		};
+		65AC9AF521107F5B00086BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AC9AD321107F5700086BCC /* ExcelSoftServicesTask */;
+			targetProxy = 65AC9AF421107F5B00086BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65AC9ADB21107F5800086BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AC9ADC21107F5800086BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65AC9AE021107F5B00086BCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AC9AE121107F5B00086BCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AC9AFA21107F5B00086BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65AC9AFB21107F5B00086BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AC9AFD21107F5B00086BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB541755CCFE798DBE3BCAED /* Pods-ExcelSoftServicesTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AC9AFE21107F5B00086BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5037B8F2EB6E1E9B8F8F739A /* Pods-ExcelSoftServicesTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65AC9B0021107F5B00086BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430ED253D6960371A0C4D80B /* Pods-ExcelSoftServicesTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelSoftServicesTask.app/ExcelSoftServicesTask";
+			};
+			name = Debug;
+		};
+		65AC9B0121107F5B00086BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2AEDC98304D8B9FD470B889 /* Pods-ExcelSoftServicesTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelSoftServicesTask.app/ExcelSoftServicesTask";
+			};
+			name = Release;
+		};
+		65AC9B0321107F5B00086BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8251554764B363D617BD50 /* Pods-ExcelSoftServicesTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcelSoftServicesTask;
+			};
+			name = Debug;
+		};
+		65AC9B0421107F5B00086BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8326B42461AF89A7D21AD1ED /* Pods-ExcelSoftServicesTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelSoftServicesTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.ExcelSoftServicesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcelSoftServicesTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AC9ACF21107F5700086BCC /* Build configuration list for PBXProject "ExcelSoftServicesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AC9AFA21107F5B00086BCC /* Debug */,
+				65AC9AFB21107F5B00086BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AC9AFC21107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AC9AFD21107F5B00086BCC /* Debug */,
+				65AC9AFE21107F5B00086BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AC9AFF21107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AC9B0021107F5B00086BCC /* Debug */,
+				65AC9B0121107F5B00086BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AC9B0221107F5B00086BCC /* Build configuration list for PBXNativeTarget "ExcelSoftServicesTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AC9B0321107F5B00086BCC /* Debug */,
+				65AC9B0421107F5B00086BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AC9ACC21107F5700086BCC /* Project object */;
+}
